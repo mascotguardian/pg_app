@@ -1,7 +1,8 @@
 $navbar-height: 50px;
-$navbar-default-bg: #A9E8DC;
-$navbar-default-link-color: #02547D;
-$jumbotron-bg: #E1F7E7;
+$navbar-default-bg: #4200FF;
+$navbar-default-link-color: #FFF;
+$jumbotron-bg: #8039E7;
+$jumbotron-color: #FFE500;
 
 
 @import "bootstrap-sprockets";
@@ -9,5 +10,8 @@ $jumbotron-bg: #E1F7E7;
 
 .center {
     text-align: center;
+}
 
+.bg {
+    background: #FFE500;
 }

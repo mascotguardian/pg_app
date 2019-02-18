@@ -1,7 +1,7 @@
 
 <div class="jumbotron center">
-    <h1>Central Hub</h1>
-    <p>Welcome to the retox.net Central Hub</p>
+    <h1>Lucky Numbers</h1>
+    <p>Find your lucky random numbers here!</p>
 
     <% if user_signed_in? %>
       <%= link_to 'Edit Profile', edit_user_registration_path, class: 'btn btn-default' %>
@@ -12,3 +12,7 @@
       <%= link_to "Join", new_user_registration_path, class: 'btn btn-primary' %>
     <% end %>
 </div>
+
+<div class="well well-lg">We do not guarantee the numbers chosen using these tools will win you a prize or bring you good fortune but perhaps they can help you choose a lucky selection.</div>
+
+<div class="well well-sm center bg">Choose a range from which to select a group of numbers</div>
